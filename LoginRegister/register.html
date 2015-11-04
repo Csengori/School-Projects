@@ -4,7 +4,7 @@
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
-		<title>Login Form</title>
+		<title>Register Form</title>
 		<meta name="generator" content="Bootply" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -20,25 +20,31 @@
   <div class="modal-content">
       <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-          <h1 class="text-center">Login</h1>
+          <h1 class="text-center">Register</h1>
       </div>
       <div class="modal-body">
-          <form class="form col-md-12 center-block" autocomplete="off" method="post" action="" >
+          <form class="form col-md-12 center-block" autocomplete="off" method="post" action="php/regUser.php" >
             <div class="form-group">
               <input type="text" name ="username" class="form-control input-lg" placeholder="Username" >
             </div>
             <div class="form-group">
+              <input type="email" name ="email" class="form-control input-lg" placeholder="email" >
+            </div>
+            <div class="form-group">
               <input type="password" name="password" class="form-control input-lg" placeholder="Password">
             </div>
+            <div class="form-group">
+              <input type="password" name="password2" class="form-control input-lg" placeholder="Password">
+            </div>
             <div class="form-group">	
-              <button class="btn btn-primary btn-lg btn-block">Sign In</button>
-              <span class="pull-right"><a href="register.html">Register</a>
+              <button class="btn btn-primary btn-lg btn-block" name="regBTN">Register</button>
+              <span class="pull-right">
             </div>
           </form>
       </div>
       <div class="modal-footer">
           <div class="col-md-12">
-          <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+          
 		  </div>	
       </div>
   </div>
