@@ -29,18 +29,9 @@ require('..\connections\connect.php');
 	header('Location: ..\index.html');
 	}
 
-	
-
-	
 	else echo "FuckYou";
 
 
 	
-
-	
-
-
-
-
 
 ?>
