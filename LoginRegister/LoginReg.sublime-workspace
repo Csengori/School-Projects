@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"sess",
+				"_SESSION"
+			],
+			[
+				"echo",
+				"echo"
+			],
+			[
 				"ser",
 				"_SERVER"
 			],
@@ -79,7 +87,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1988,
+				"buffer_size": 1989,
 				"line_ending": "Unix"
 			}
 		},
@@ -87,40 +95,16 @@
 			"file": "php/loginUser.php",
 			"settings":
 			{
-				"buffer_size": 374,
+				"buffer_size": 397,
 				"line_ending": "Windows",
 				"name": "<?php"
 			}
 		},
 		{
-			"file": "php/regUser.php",
+			"file": "inventory/inventory.php",
 			"settings":
 			{
-				"buffer_size": 684,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "register.html",
-			"settings":
-			{
-				"buffer_size": 2200,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "connections/connect.php",
-			"settings":
-			{
-				"buffer_size": 274,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "inventory/inventory.html",
-			"settings":
-			{
-				"buffer_size": 0,
+				"buffer_size": 177,
 				"line_ending": "Windows"
 			}
 		}
@@ -149,6 +133,10 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/GitHub/School-Projects/LoginRegister/inventory/inventory.html",
+		"/C/xampp/htdocs/GitHub/School-Projects/LoginRegister/php/regUser.php",
+		"/C/xampp/htdocs/GitHub/School-Projects/LoginRegister/register.html",
+		"/C/xampp/htdocs/GitHub/School-Projects/LoginRegister/connections/connect.php",
 		"/C/xampp/htdocs/GitHub/School-Projects/UnitConversion/php/length.php",
 		"/C/xampp/htdocs/GitHub/School-Projects/UnitConversion/Index.php",
 		"/C/xampp/htdocs/GitHub/School-Projects/Unit Conversion/Index.php",
@@ -205,7 +193,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -213,15 +201,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1988,
+						"buffer_size": 1989,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1103,
-								1111
+								1109,
+								1109
 							]
 						],
 						"settings":
@@ -231,7 +219,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 112.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -241,15 +229,15 @@
 					"file": "php/loginUser.php",
 					"settings":
 					{
-						"buffer_size": 374,
+						"buffer_size": 397,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								365,
-								365
+								340,
+								340
 							]
 						],
 						"settings":
@@ -265,103 +253,23 @@
 				},
 				{
 					"buffer": 2,
-					"file": "php/regUser.php",
+					"file": "inventory/inventory.php",
 					"settings":
 					{
-						"buffer_size": 684,
+						"buffer_size": 177,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								61,
-								61
+								154,
+								154
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "register.html",
-					"settings":
-					{
-						"buffer_size": 2200,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1747,
-								1747
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 42.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "connections/connect.php",
-					"settings":
-					{
-						"buffer_size": 274,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								270,
-								270
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "inventory/inventory.html",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -428,6 +336,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 197.0,
 	"status_bar_visible": true
 }

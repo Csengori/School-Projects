@@ -13,6 +13,6 @@ if(isset($_SESSION["ID"]))
 
 }
 
-echo "bazdmeg";
-echo ($_SESSION['ID']);
+
+echo "session id: ".($_SESSION['ID']);
 ?>
