@@ -8,13 +8,13 @@ if(isset($_SESSION["ID"]))
 {
 
 }else{
-
+//redirect user to login if not logged in 
 	header('Location: ..\index.html');
 
 }
 
-//redirect user to login if not logged in 
 
 
-header('Location: ..\index.html')
+
+
 ?>
