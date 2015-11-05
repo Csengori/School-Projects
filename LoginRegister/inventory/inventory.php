@@ -13,6 +13,8 @@ if(isset($_SESSION["ID"]))
 
 }
 
+//redirect user to login if not logged in 
 
-echo "session id: ".($_SESSION['ID']);
+
+header('Location: ..\index.html')
 ?>

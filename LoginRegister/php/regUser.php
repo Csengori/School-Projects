@@ -6,7 +6,9 @@ require('..\connections\connect.php');
 
 	
 
-/* check is form is submited */
+// chek submission of the form // 
+
+
 	$succes = false;
 	if (isset($_POST['regBTN'])			&& 
 		(isset($_POST['username'])) 	&&  (!empty($_POST['username']))
@@ -15,6 +17,7 @@ require('..\connections\connect.php');
 	{
 
 
+//start session get user data from the form //
 
 		session_start();
 		$username	= $_POST['username'];
