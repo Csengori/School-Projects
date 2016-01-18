@@ -1,12 +1,10 @@
 <!doctype html > 
 
-<?php if (require('..\jquery.sticky-footer.js') == true) {
-echo('fasza');
-}  
+ <?php 
+ include('js\jquery.sticky-footer.js');	
+ ?>
 
 
-else echo('nem fasza');
-?>
 <html lang= "EN">
 
 	<!-- declaration of bootstrap -->

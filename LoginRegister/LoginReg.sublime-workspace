@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"stic",
+				"sticky-footer"
+			],
+			[
+				"if",
+				"if	if …"
+			],
+			[
 				"html",
 				"html	html"
 			],
@@ -111,15 +119,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1989,
-				"line_ending": "Unix"
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "php/loginUser.php",
 			"settings":
 			{
-				"buffer_size": 566,
+				"buffer_size": 0,
 				"line_ending": "Windows",
 				"name": "<?php"
 			}
@@ -128,15 +136,7 @@
 			"file": "inventory/inventory.php",
 			"settings":
 			{
-				"buffer_size": 219,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "inventory2.html",
-			"settings":
-			{
-				"buffer_size": 1912,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -144,7 +144,23 @@
 			"file": "testpage.html",
 			"settings":
 			{
-				"buffer_size": 798,
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inv.php",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/GitHub/dogshit/index.html",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		}
@@ -173,6 +189,7 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/GitHub/dogshit/js/bootstrap.min.js",
 		"/C/xampp/htdocs/GitHub/School-Projects/LoginRegister/register.html",
 		"/C/xampp/htdocs/GitHub/School-Projects/LoginRegister/php/regUser.php",
 		"/C/xampp/htdocs/GitHub/School-Projects/LoginRegister/inventory/inventory.html",
@@ -213,12 +230,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"jquer",
 			"<?php",
 			"name",
 			"</input>"
 		],
 		"highlight": true,
-		"in_selection": false,
+		"in_selection": true,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
@@ -233,7 +251,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -241,15 +259,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1989,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								667,
-								667
+								0,
+								0
 							]
 						],
 						"settings":
@@ -269,15 +287,15 @@
 					"file": "php/loginUser.php",
 					"settings":
 					{
-						"buffer_size": 566,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								477,
-								477
+								0,
+								0
 							]
 						],
 						"settings":
@@ -296,15 +314,15 @@
 					"file": "inventory/inventory.php",
 					"settings":
 					{
-						"buffer_size": 219,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								129,
-								129
+								0,
+								0
 							]
 						],
 						"settings":
@@ -319,45 +337,73 @@
 				},
 				{
 					"buffer": 3,
-					"file": "inventory2.html",
+					"file": "testpage.html",
 					"settings":
 					{
-						"buffer_size": 1912,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1142,
-								1142
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 504.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "testpage.html",
+					"file": "inv.php",
 					"settings":
 					{
-						"buffer_size": 798,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								760,
-								760
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/xampp/htdocs/GitHub/dogshit/index.html",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
